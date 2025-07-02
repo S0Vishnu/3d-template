@@ -1,0 +1,20 @@
+{
+  "name": "r3f-physics-js",
+  "version": "1.0.0",
+  "description": "A React Three Fiber project with physics (JavaScript)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@react-three/fiber": "^8.12.1",
+    "@react-three/drei": "^9.63.1",
+    "@react-three/rapier": "^0.12.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.0"
+  }
+}
