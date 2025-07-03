@@ -1,6 +1,6 @@
 {
   "name": "web-3d-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "bin": {
     "web-3d-template": "./bin/index.js"
