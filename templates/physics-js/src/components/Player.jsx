@@ -6,11 +6,9 @@ import { Vector3 } from "three";
 import { useThree } from "@react-three/fiber";
 
 const Player = () => {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const body = useRef(null);
   const direction = new Vector3();
   const { camera } = useThree();
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [, get] = useKeyboardControls();
 
   useFrame(() => {

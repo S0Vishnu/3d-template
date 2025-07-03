@@ -131,6 +131,12 @@ MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
+## Author
+
+[Vishnu](https://github.com/S0Vishnu)
+
+---
+
 ## Acknowledgements
 
 Thanks to the React Three Fiber, Drei, and Rapier communities for their excellent libraries and resources.

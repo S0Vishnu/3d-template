@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  Sphere,
-  Environment,
-  OrbitControls,
-} from "@react-three/drei";
+import { Sphere, Environment, OrbitControls } from "@react-three/drei";
 import { EffectComposer, Bloom } from "@react-three/postprocessing";
 import { RigidBody } from "@react-three/rapier";
 import { Color } from "three";
@@ -11,7 +7,7 @@ import { Color } from "three";
 function Floor() {
   return (
     <RigidBody type="fixed" restitution={0.2}>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow position={[0, 0, 0]}>
         <planeGeometry args={[30, 30]} />
         <meshStandardMaterial color="#222" />
       </mesh>
@@ -55,7 +51,7 @@ export default function Scene() {
       <directionalLight
         castShadow
         position={[5, 5, 5]}
-        intensity={0.5}
+        intensity={0.01}
         shadow-mapSize={1024}
       />
       <Environment preset="sunset" />
